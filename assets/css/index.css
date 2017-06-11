@@ -23,14 +23,16 @@
 				color: #DCDCDC;
 			}
 
-			.nav::before {
+			.nav::before, .nav::after{
 					content '';
-					border: 1px solid black;
-
-
+					height: 1px;
+					width: 200px;
+					background: #DCDCDC;					
+					
 
 			}
 
+			 
 	.li{
 		text-transform: uppercase;
 	}
@@ -38,11 +40,15 @@
 	.logo{
 		background-color: #DCDCDC;
 		width: 100%;
+		text-align: center;
+		
+
 	}
 	 .logo p{
 		
-		text-align: center;
 		font-family: "Italic";
+		padding: 30px;
+
 	}
 
 		
@@ -76,36 +82,18 @@
 			text-align: center;
 		}
 
-	.colonne img{
+	.colonne img {
 		width: 730px;
-		height: 500px;
+		height: 600px;
 		float: :center;
 		padding: 50px;
 		border-left: 50px;
 
-	}
+				}
 
 	.meta li{
 		display: inline;
-		 
+			}
 
-	}
 
-	.section nav::before{
-		 content '';
-		 border: 1px solid #DCDCDC;
-		 width: 200px;
-		}
-
-	.section icones-bar::after{
-		 content '';
-		 border: 1px solid #DCDCDC;
-		 width: 150px;
-		}
-
-	.img{
-	 width: 100%;
-	 margin: 0px;
-	 padding: 0px;
-	 height: 40px;
-	}
+	
