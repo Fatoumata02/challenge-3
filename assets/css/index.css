@@ -1,93 +1,111 @@
-.body{
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	font-family: "Source Sans Pro",Helvetica,sans-serif;
-}
-.navbar{
-	background-color: black;
-	margin: 50px  0px  0px 0px;
-	width: 100%;
-	text-transform: uppercase;
-	word-spacing:50px;	
-
-}
-.li .span{
-	color: white;
-	float: center;
-}
-.ul:hover {
-	color: white;
-}
-
-.icones-bar {
-	float: center;
-}
-.li{
-	text-transform: uppercase;
-}
-
-.logo{
-	background-color: #DCDCDC;
-	width: 100%;
-}
- .logo p{
-	
-	text-align: center;
-	font-family: "Italic";
-}
- p::before{
-	 border: 2px solid black;
+	.body{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		font-family: "Source Sans Pro",Helvetica,sans-serif;
 	}
-	.p::after{
-	 border: 2px solid black;
-	}
-	.article{
+	.navbar{
+		background-color: black;
+		margin: 50px  0px  0px 0px;
+		width: 100%;
 		text-transform: uppercase;
-		color: #8B0000;
-	}
-	.date{
-		border-left: 1px solid #DCDCDC;
+		word-spacing:50px;	
+
+			}
 
 		
-	}
-
-		 /*text-decoration: underline;
-*/
+	.nav {
+		display: inline-flex;
 	
-	h1{
-		text-transform: uppercase;
-	text-align: center;
-		font-family: "Georgia";
 	}
-	.h2{
-		text-transform: uppercase;
-		color:center;
-	}
-.colonne img{
-	width: 730px;
-	height: 500px;
-	float: :center;
-	padding: 50px;
-	border-left: 50px;
 
-}
-.meta li{
-	display: inline;
-}
-.icones-bar::before{
-	  content '';
-	 border: 1px solid #DCDCDC;
-	 width: 200px;
+			i{
+				color: #DCDCDC;
+			}
+
+			.nav::before {
+					content '';
+					border: 1px solid black;
+
+
+
+			}
+
+	.li{
+		text-transform: uppercase;
 	}
-icones-bar::after{
-	 content '';
-	 border: 1px solid #DCDCDC;
-	 width: 150px;
+
+	.logo{
+		background-color: #DCDCDC;
+		width: 100%;
 	}
-.img{
- width: 100%;
- margin: 0px;
- padding: 0px;
- height: 40px;
-}
+	 .logo p{
+		
+		text-align: center;
+		font-family: "Italic";
+	}
+
+		
+		.date{
+			border-left: 1px solid #DCDCDC;
+			padding: 3px;
+			
+		}
+		article{
+			text-transform: uppercase;
+			color: #8B0000;
+			text-align: center;
+		}
+
+			 /*text-decoration: underline;
+	*/
+		
+		h1{
+			text-transform: uppercase;
+		text-align: center;
+			font-family: "Georgia";
+		}
+
+		h2{
+			text-transform: uppercase;
+			color:center;
+			
+		}
+
+		.colonne{
+			text-align: center;
+		}
+
+	.colonne img{
+		width: 730px;
+		height: 500px;
+		float: :center;
+		padding: 50px;
+		border-left: 50px;
+
+	}
+
+	.meta li{
+		display: inline;
+		 
+
+	}
+
+	.section nav::before{
+		 content '';
+		 border: 1px solid #DCDCDC;
+		 width: 200px;
+		}
+
+	.section icones-bar::after{
+		 content '';
+		 border: 1px solid #DCDCDC;
+		 width: 150px;
+		}
+
+	.img{
+	 width: 100%;
+	 margin: 0px;
+	 padding: 0px;
+	 height: 40px;
+	}
