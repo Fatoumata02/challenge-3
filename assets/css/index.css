@@ -20,7 +20,7 @@
 	}
 
 			i{
-				color: #DCDCDC;
+				color: black;
 			}
 
 			.nav::before, .nav::after{
@@ -77,6 +77,13 @@
 			color:center;
 			
 		}
+		h3{
+			text-transform: uppercase;
+			color:center;
+			border-bottom: 2px solid black;
+			border-bottom: 2px solid black;
+			border-spacing: 5px;
+		}
 
 		.colonne{
 			text-align: center;
@@ -94,6 +101,23 @@
 	.meta li{
 		display: inline;
 			}
+.navigation {
+	text-align: center;
+}
 
-
-	
+.col img{
+	width: 100px;
+	height: 80px;
+	margin: 20px;
+}
+.colonneF{
+	width: 420px;
+	height: 30px;
+	text-align: center;
+	padding: 50px;
+	margin: 3px;
+}
+	.colonneF>img {
+	margin: 30px;
+	height: 200px;
+	}
